@@ -1,0 +1,17 @@
+@media all and (max-width: 314px){
+    .pokemonLogo{
+        position: relative;
+        text-align: center;
+    }
+    .pokemontitle{
+        max-width: 30px;
+        max-height: 20px;
+        flex-wrap: wrap;
+    }
+    .pokeball{
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        width: 20px;
+    }
+}
