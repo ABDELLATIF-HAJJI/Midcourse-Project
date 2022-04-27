@@ -54,7 +54,7 @@ body{
 .container:hover{
     transform: scale(1.1);
 }
-.container-img{
+.content-img{
     max-width: 7em;
 }
 .background-img{
@@ -84,7 +84,7 @@ body{
 .pokemonButton:hover{
     background-color:rgb(8, 248, 204);
 }
-/*Types-pokemon-color*/
+/*TypesButton-color*/
 .plant{
     background-color:var(--plant);
 }
