@@ -1,10 +1,10 @@
 :root{
     --plant:rgb(60, 255, 0);
-    --poison:rgb(214, 152, 243);
+    --poison:rgb(248, 169, 144);
     --fire:rgb(243, 107, 65);
-    --fairy:rgb(185, 207, 185);
+    --fairy:rgb(243, 45, 217);
     --bug:rgb(172, 202, 158);
     --normal:rgb(134, 117, 117);
     --electrical:rgb(251, 255, 0);
     --main-color:rgb(230, 227, 240);
-   }
+}

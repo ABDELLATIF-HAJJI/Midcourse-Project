@@ -109,7 +109,7 @@ const ballLogo = document.createElement ('img');
 ballLogo.className = 'pokeball';
 ballLogo.src = 'img/pokeball.PNG';
 mainLogo.appendChild(ballLogo);*/
-//section////////////////////////////////////////////////////////////
+//section///////////////////////////////////////////////////////////////////////
 const mainSection = document.querySelector('.mainSection');
 
 for (var i=0; i<pokemons.length; i++){
@@ -139,8 +139,15 @@ for (var i=0; i<pokemons.length; i++){
     
     for (var j=0; j<pokemons[i].type.length; j++){
         const bt1 = document.createElement ('button');
-        bt1.className =  'pokemonButton';
+        bt1.className = pokemons[i].type[j] +' '+ 'pokemonButton';
         pokemoncontainer.appendChild(bt1);
         bt1.innerHTML = pokemons[i].type[j];
     }
 }
+
+
+
+/*function capitalize(s){
+    return s[0].toUpperCase() + s.slice(1);
+}
+console.log(capitalize(pokemons))*/
