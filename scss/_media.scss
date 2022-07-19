@@ -1,0 +1,71 @@
+
+.pokeball{
+    @media screen and (min-width: 790px){
+        position: absolute;
+        top:17%;
+        right: 43.5%;
+        max-width: 80px;
+    }
+}
+.pokeball{
+    @media screen and (max-width: 682px) {
+        position: absolute;
+        top:13%;
+        right: 44.4%;
+        width: 49px;
+    }
+}   
+.pokeball{
+    @media screen and (max-width: 500px) {
+        position: absolute;
+        top:10%;
+        right: 44.4%;
+        width: 45px;
+    }
+}      
+.pokeball{
+    @media screen and (max-width: 400px) {
+        position: absolute;
+        top:15%;
+        right: 44.4%;
+        width: 45px;
+    }
+}
+.pokeball{
+    @media screen and (max-width: 263px) {
+        position: absolute;
+        top:10%;
+        right: 44.4%;
+        bottom: 99%;
+        width: 12px;
+    }
+}
+                    
+.pokemontitle{
+    @media screen and (max-width: 128px) {
+        position: relative;
+        top: 20%;
+        right: 0%;
+        bottom: -15px;
+    }
+}
+/*.inputClass{
+    @media screen and (max-width: 321px) {
+        max-width: 6em;
+        max-height: 13px;
+        
+    }
+}*/
+.container{
+    @media screen and (max-width: 124px) {
+        flex-wrap: wrap;
+        margin-right: 0%;
+        margin-left: 10%;
+        width: 70px;
+    }
+}
+.content-img{
+    @media screen and (max-width: 124px) {
+        width: 4em;
+    }
+}

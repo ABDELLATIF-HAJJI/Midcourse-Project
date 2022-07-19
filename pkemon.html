@@ -12,8 +12,47 @@
         <img class="pokemontitle" src="img/pokemon_logo.png" alt="">
         <img class="pokeball" src="img/pokeball.PNG" alt="">
     </div>
-    <section class="mainSection">
-       
+    <div class="searchArea">
+        <form>
+            <label for="search"></label>
+            <input class="inputArea" type="text" id="pokSearch" placeholder="Pokemon name!">
+            <button class="searchButton" id="searchBt">🔍</button>
+        </form>
+    </div>
+    <section class="mainSection"></section>
+    <h1 class="cart">cart</h1>
+    <section class="footerSection mainSection">
+        <div class="footerContainer container ">
+            <div class="footerImg background-img">
+                <img class="footerImg container-img" id="img1" src="/img/001.png" alt="">
+            </div>
+                <span   class="pokemonNumber"  >N° 001</span>
+                <span   class="footerName pokemonName" >Bulbassaur</span>
+                <button class="pokemonButton plant" >Plant</button>
+                <button class="pokemonButton poison">Poison</button>
+                <button class="footerPrice pokPrice">$ 20</button>
+                <div class="quantity">
+                    <input  class="inputValue" type="number" value="1">
+                    <button class="remove" type="button">REMOVE</button>
+                </div>
+        </div>
+        <div class="footerContainer container">
+            <div class="footerImg background-img">
+                <img class="footerImg container-img" id="img1" src="/img/001.png" alt="">
+            </div>
+                <span   class="pokemonNumber"  >N° 001</span>
+                <span   class="footerName pokemonName" >Bulbassaur</span>
+                <button class="pokemonButton plant" >Plant</button>
+                <button class="pokemonButton poison">Poison</button>
+                <button class="footerPrice pokPrice">$ 20.5</button>
+                <div class="quantity">
+                    <input  class="inputValue" type="number" value="1">
+                    <button class="remove" type="button">REMOVE</button>
+                </div>
+        </div>
+        <br>
+            <p class="total">Total: $ 0 </p>
+            <button id="purchase" type="button">PURCHASE</button>
     </section>
     <script src="pokemon.js"></script>
 </body>

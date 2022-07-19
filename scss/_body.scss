@@ -1,0 +1,199 @@
+*{
+    margin: auto;
+
+    body{
+        background-image: url("/img/container_bg.png");
+        
+        #logo{
+            text-align: center;
+            .pokemontitle{
+                position: relative;
+                top:13%;
+                right: 0%;
+                max-width: 60%;
+                max-height: 200px;
+                animation: movementTitle 0.5s ;
+                @keyframes movementTitle{
+                    from {
+                        transform: translateX(-50em);
+                    }
+                    to {
+                        transform: translateX(0);
+                    }
+                }
+            }
+            .pokeball{
+                position: absolute;
+                top:12%;
+                right: 44.4%;
+                max-width: 70px;
+                animation: movementBall 2s 1 ;
+                @keyframes movementBall{
+                    from {
+                        transform: translateY(-20em);
+                    }
+                    to {
+                        transform: translateY(0);
+                    }
+                }
+            }
+        }
+        .searchArea{
+            flex-wrap: wrap;
+            margin: 5% 0% 1% 62.8%;
+            max-width: 100%;
+            
+            .inputArea{
+                max-width: 8em;
+                max-height: 12px;
+            }
+            .searchButton{
+                max-width: 13.2em;
+                max-height: 17px;
+                font-size: 12px;
+                padding: 0px 3px 14px 3px;
+                border: none;
+                background-color: transparent;
+            }
+        }
+        .mainSection{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 2em;
+            margin-bottom: 1%;
+            max-width: 39em;
+            .container{
+                border: solid 1px  $main-color;
+                margin-bottom: 1.5em;
+                margin-right: 2%;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                .background-img{
+                    background-color:rgb(230, 227, 240);
+                    .content-img{
+                        max-width: 7em;
+                    }
+                }
+                .pokemonNumber{
+                    font-size: 8px;
+                    font-weight: bold;
+                    margin:5px 0px 4px 5px;
+                    color:  $normal;
+                }
+                .pokemonName{
+                    font-size: 10px;
+                    font-weight: bold;
+                    margin-left: 5px;
+                    font-family: sans-serif;
+                    margin-bottom: -3%;
+                }
+                .pokemonButton{
+                    font-size: 7px;
+                    margin-left: 5px;
+                    margin-bottom: 3px;
+                    border: none;
+                    border-radius: 2px;
+                    width: 5em;
+                    &:hover{
+                        background-color:rgb(8, 248, 204);
+                    }
+                }
+                .plant{
+                    background-color: $plant;
+                }
+                .poison{
+                    background-color: $poison;
+                }
+                .fire{
+                    background-color: $fire;
+                }
+                .fairy{
+                    background-color: $fairy;
+                }
+                .bug{
+                    background-color: $bug;
+                }
+                .normal{
+                    background-color: $normal;
+                }
+                .electrical{
+                    background-color: $electrical;
+                }
+                .pokPrice{
+                    font-size: 7px;
+                    font-weight: bold;
+                    margin-left: 5px;
+                    margin-bottom: 3px;
+                    border: solid 1px rgb(35, 165, 148);
+                    border-radius: 10px;
+                    max-width: 5em;
+                }
+                .buyBt{
+                    font-size: 6px;
+                    font-weight: bolder;
+                    margin-bottom: 3px;
+                    border: solid 2px rgb(35, 165, 148);
+                    border-radius: 10px;
+                    max-width: 5em;
+                    background-color: rgb(25, 187, 187);
+                    &:hover{
+                        background-color:rgb(152, 233, 22);
+                    }
+                }
+                
+            }
+    
+        }
+        .cart{
+            text-align: center; 
+        }
+        .footerSection{
+            margin-top: 20px;
+            max-width: 30em;
+            .footerContainer{
+                display: flex;
+                flex-wrap: wrap;
+                border-bottom: solid 1px;
+                margin-bottom: 10px;
+                max-width: 50em;
+                .footerImg{
+                    max-width: 40px;
+                }
+                .footerN{
+                    margin-bottom: 0px;
+                }
+                .footerName{
+                    margin-bottom: 0px;
+                }
+                .quantity{
+                    margin-left: 4em;
+                    .inputValue{
+                        width: 30px;
+                    }
+                    .remove{
+                         color: white;
+                         background-color: red;
+                         border-radius: 6%;
+                         max-width: 6em;
+                         font-size: 10px;
+                    }
+                }
+            }
+            .total{
+                background-color: aqua;
+                color: red;
+                text-align: end;
+                margin-left: 80%;
+                font-weight: bold;
+            }    
+            #purchase{
+                height: 30px;
+                background-color: rgb(47, 131, 127);
+                font-weight: bold;
+                border-radius: 6%;
+            }
+        } 
+    }
+}
